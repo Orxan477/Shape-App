@@ -19,6 +19,7 @@ namespace Shape.Models
             sum = (Seat * Height) / 2;
             Console.WriteLine("---------------------");
             Console.WriteLine($"Area={sum}");
+            Console.ReadLine();
         }
     }
 }

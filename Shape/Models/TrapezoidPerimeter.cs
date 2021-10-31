@@ -20,6 +20,7 @@ namespace Shape.Models
             sum = Side1 + Side2 + Side3+Side4;
             Console.WriteLine("---------------------");
             Console.WriteLine($"Perimeter={sum}");
+            Console.ReadLine();
         }
     }
 }
