@@ -12,6 +12,7 @@ namespace Shape.Models
             Console.Write("Side= ");
             Side1 = Convert.ToDouble(Console.ReadLine());
             sum = (3*(Math.Sqrt(3))*(Side1*Side1))/2;
+            Console.WriteLine("---------------------");
             Console.WriteLine($"Area={sum}");
         }
     }

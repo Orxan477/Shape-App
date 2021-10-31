@@ -14,6 +14,7 @@ namespace Shape.Models
             Console.Write("Seat=");
             Seat = Convert.ToDouble(Console.ReadLine());
             sum = (Side1 * Seat) / 2;
+            Console.WriteLine("---------------------");
             Console.WriteLine($"Area={sum}");
         }
     }

@@ -11,6 +11,7 @@ namespace Shape.Models
             Console.WriteLine("Enter the Radius:");
             Radius = Convert.ToDouble(Console.ReadLine());
             sum = (Radius * Radius * 3.14);
+            Console.WriteLine("-----------------");
             Console.WriteLine($"Area={sum}");
         }
     }

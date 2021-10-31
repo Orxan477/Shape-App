@@ -12,6 +12,7 @@ namespace Shape.Models
             Console.Write("Side= ");
             Side1 = Convert.ToDouble(Console.ReadLine());
             sum = Side1 * 5;
+            Console.WriteLine("---------------------");
             Console.WriteLine($"Perimeter={sum}");
         }
     }

@@ -12,6 +12,7 @@ namespace Shape.Models
             Console.Write("Side= ");
             Side1 = Convert.ToDouble(Console.ReadLine());
             sum = ((Math.Sqrt(5*(5+2*Math.Sqrt(5)))*(Side1*Side1))/4);
+            Console.WriteLine("---------------------");
             Console.WriteLine($"Area={sum}");
         }
     }

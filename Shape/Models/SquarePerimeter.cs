@@ -10,10 +10,11 @@ namespace Shape.Models
         public override void GetPerimeter()
         {
             double sum = 0;
-            Console.Write("Enter the side:");
+            Console.WriteLine("Enter the side:");
             Console.Write("Side 1= ");
             Side1 = Convert.ToDouble(Console.ReadLine());
             sum = Side1 * 4;
+            Console.WriteLine("---------------------");
             Console.WriteLine($"Perimeter={sum}");
         }
     }

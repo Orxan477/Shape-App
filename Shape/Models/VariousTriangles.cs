@@ -18,6 +18,7 @@ namespace Shape.Models
             Side3 = Convert.ToDouble(Console.ReadLine());
             HalfPerimeter = (Side1 + Side2 + Side3) / 2;
             sum = Math.Sqrt(HalfPerimeter * (HalfPerimeter - Side1) * (HalfPerimeter - Side2) * (HalfPerimeter - Side3));
+            Console.WriteLine("---------------------");
             Console.WriteLine($"Area={sum}");
         }
     }

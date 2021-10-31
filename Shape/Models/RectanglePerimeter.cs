@@ -14,6 +14,7 @@ namespace Shape.Models
             Console.Write("Width= ");
             Side2 = Convert.ToDouble(Console.ReadLine());
             sum = ((Side1 + Side2) * 2);
+            Console.WriteLine("---------------------");
             Console.WriteLine($"Perimeter={sum}");
         }
     }

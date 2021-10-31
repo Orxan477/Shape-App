@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Shape.Models
 {
-    class İsoscelesTriangles:Triangle
+    class IsoscelesTriangles:Triangle
     {
         public override void GetArea()
         {
@@ -17,6 +17,7 @@ namespace Shape.Models
             Height = (Side1 * Side1) - ((Seat / 2) * (Seat / 2));
             Height = Math.Sqrt(Height);
             sum = (Seat * Height) / 2;
+            Console.WriteLine("---------------------");
             Console.WriteLine($"Area={sum}");
         }
     }

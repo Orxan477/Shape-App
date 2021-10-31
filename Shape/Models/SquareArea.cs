@@ -11,6 +11,7 @@ namespace Shape.Models
             Console.Write("Enter the side:");
             Console.Write("Side 1= ");
             Side1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("---------------------");
             Console.WriteLine($"Area={Side1*Side1}");
         }
     }
