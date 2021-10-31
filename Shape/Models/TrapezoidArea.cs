@@ -18,7 +18,7 @@ namespace Shape.Models
             sum = (((Side1 + Side2)/2)*Height);
             Console.WriteLine("---------------------");
             Console.WriteLine($"Area={sum}");
-            Console.ReadLine();
+           // Console.ReadLine();
         }
     }
 }

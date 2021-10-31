@@ -15,7 +15,7 @@ namespace Shape.Models
             sum = ((Math.Sqrt(3)) * (Side1 * Side1) / 4);
             Console.WriteLine("---------------------");
             Console.WriteLine($"Area={sum}");
-            Console.ReadLine();
+           // Console.ReadLine();
         }
     }
 }

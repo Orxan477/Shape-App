@@ -13,7 +13,7 @@ namespace Shape.Models
             sum = (2 * Radius * 3.14);
             Console.WriteLine("---------------------");
             Console.WriteLine($"Length={sum}");
-            Console.ReadLine();
+           // Console.ReadLine();
         }
     }
 }

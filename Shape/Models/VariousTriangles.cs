@@ -20,7 +20,7 @@ namespace Shape.Models
             sum = Math.Sqrt(HalfPerimeter * (HalfPerimeter - Side1) * (HalfPerimeter - Side2) * (HalfPerimeter - Side3));
             Console.WriteLine("---------------------");
             Console.WriteLine($"Area={sum}");
-            Console.ReadLine();
+           // Console.ReadLine();
         }
     }
 }
